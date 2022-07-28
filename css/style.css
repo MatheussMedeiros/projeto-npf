@@ -402,6 +402,13 @@ Main {
   .container-info2 h2 {
     font-size: 2em;
   }
+  .galeria-short {
+    padding: 0;
+  }
+  .galeria-short .imgs {
+    height: 100px;
+    width: 100px;
+  }
 }
 @media (max-width: 425px) {
   .container-info, .container-info2 {
@@ -412,6 +419,64 @@ Main {
   }
   .container-info2 h2 {
     font-size: 1.5em;
+  }
+}
+@media (max-width: 420px) {
+  #banner h1, .frase-impacto h1 {
+    font-size: 2em;
+  }
+  #banner h2, .frase-impacto h2 {
+    font-size: 1.4em;
+  }
+  #banner h3, .frase-impacto h3 {
+    font-size: 1.4em;
+  }
+  #banner h4, .frase-impacto h4 {
+    font-size: 1.4em;
+  }
+  #banner p, .frase-impacto p {
+    font-size: 1em;
+  }
+  .container-info .info-text h1, .container-info2 .info-text h1 {
+    font-size: 2em;
+  }
+  .container-info .info-text h2, .container-info2 .info-text h2 {
+    font-size: 1.4em;
+  }
+  .container-info .info-text h3, .container-info2 .info-text h3 {
+    font-size: 1.4em;
+  }
+  .container-info .info-text h4, .container-info2 .info-text h4 {
+    font-size: 1.4em;
+  }
+  .container-info .info-text p, .container-info2 .info-text p {
+    font-size: 1em;
+  }
+  .videio-container h1 {
+    font-size: 2em;
+  }
+  .videio-container h2 {
+    font-size: 1.4em;
+  }
+  .videio-container h3 {
+    font-size: 1.4em;
+  }
+  .videio-container h4 {
+    font-size: 1.4em;
+  }
+  .videio-container p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 375px) {
+  .container-info .imagem {
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .galeria .imgs {
+    height: 200px;
+    min-width: 200px;
   }
 }
 
