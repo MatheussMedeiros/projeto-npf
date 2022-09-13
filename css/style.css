@@ -15,6 +15,21 @@ Main {
   padding-bottom: 30px;
 }
 
+.btn-chamada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-decoration: none;
+} 
+
+.btn-chamada .btn{
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+
 /* BANNER */
 #banner {
   position: relative;
